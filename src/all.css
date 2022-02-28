@@ -1,0 +1,101 @@
+*{
+    transition: all 0.8s ease;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+p, span, a, button, li{
+    font-family: 'Open Sans', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+h1, h2, h3,h4,h5{
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+body{
+    background-color: rgb(245, 245, 245);
+}
+.align-center{
+    text-align: center;
+}
+.inline-item{
+    display: inline-block;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.w-10{
+    width: 10%;
+}
+.w-20{
+    width: 20%;
+}
+
+.w-40{
+    width: 40%;
+}
+
+.w-50{
+    width: 50%;
+}
+
+.w-60{
+    width:60%;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.w-98{
+    width: 99%;
+}
+
+
+.lenguaje{
+    position: absolute;
+    top: 5px;
+    z-index: 10;
+}
+.lenguaje h1{
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin: 2px;
+}
+.lenguaje button{
+    display: none;
+    border: none;
+    color: black;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+}
+.lenguaje button:hover{
+    background-color: rgb(224, 224, 224);
+}
+.lenguaje:hover{
+    background-color: white;
+}
+.lenguaje:hover button{
+    display: block;
+}
+
+@media screen and (min-width : 0px) and (max-width : 1208px){
+    .w-100-responsive{
+        width: 100%;
+    }
+    .display-flex{
+        display: block;
+    }
+}
